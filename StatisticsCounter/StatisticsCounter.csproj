@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Loader\Loader\Loader.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ExcelLibrary">
+      <HintPath>..\..\..\..\..\Google drive\обучение\6 sem\Szt. Inż\Lab01 with github\ArtificialIntelligence_01\CSVFileReadWrite\packages\ExcelLibrary.1.2011.7.31\lib\ExcelLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
