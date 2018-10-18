@@ -1,18 +1,16 @@
+using StatisticsCounter;
 using Xunit;
 
 namespace StatisticsCounter_Tests
 {
-    public class ExcelWorker_Tests
+    public class UnitTest1
     {
         [Fact]
         public void Test1()
         {
-            // arrange
             ExcelWorker excelWorker = new ExcelWorker();
 
-            // act
-
-            // assert
+            excelWorker.AddCellToWorksheetIntoColumnsAB(1, 1 + 42);
         }
     }
 }

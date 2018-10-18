@@ -3,7 +3,7 @@ using System;
 
 namespace StatisticsCounter
 {
-    internal class ExcelWorker
+    public class ExcelWorker
     {
         public const int BEST_RATING_INDEX = 1;
         public const int COLUMN_A_INDEX = 0;
@@ -11,7 +11,7 @@ namespace StatisticsCounter
         public const int COLUMN_C_INDEX = 2;
         public const int COLUMN_D_INDEX = 3;
 
-        public const String DEFAULT_FILE_NAME = "newdoc.xls";
+        public const String DEFAULT_FILE_NAME = "newdoc";
         public const String DEFAULT_WORKSHEET_NAME = "First Sheet";
 
         public const int FIRST_INDEX_IN_EXCEL_COLUMN = 0;

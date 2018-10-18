@@ -1,6 +1,6 @@
 ﻿namespace StatisticsCounter
 {
-    internal class ResultData
+    public class ResultData
     {
         public string GenerationNumber { get; set; }
         public string BestRating { get; set; }
