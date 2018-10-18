@@ -2,7 +2,7 @@
 
 namespace StatisticsCounter
 {
-    internal static class StandardDeviationCounter
+    public static class StandardDeviationCounter
     {
         public static double CountStandardDeviation(double AverageCost, double[] variables)
         {
