@@ -15,6 +15,12 @@ namespace StatisticsCounter
         {
             _fileName = fileName;
             _statistics = new List<StatisticsData>();
+
+            //delete old data if exists
+            if (File.Exists(Path))
+            {
+                File.Delete(Path);
+            }
         }
 
         public void LogToFile()
